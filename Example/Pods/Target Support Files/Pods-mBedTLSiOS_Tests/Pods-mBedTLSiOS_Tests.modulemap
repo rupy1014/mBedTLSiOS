@@ -1,0 +1,6 @@
+framework module Pods_mBedTLSiOS_Tests {
+  umbrella header "Pods-mBedTLSiOS_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

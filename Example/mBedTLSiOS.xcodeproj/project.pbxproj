@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F2D2320DAD384D4C37DEEC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1F2D2320DAD384D4C37DEEC1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3F03311C41E520856DAD326E /* Pods-mBedTLSiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mBedTLSiOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-mBedTLSiOS_Tests/Pods-mBedTLSiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* mBedTLSiOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mBedTLSiOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,9 +61,9 @@
 		62084D045C3F67F8201BE143 /* Pods-mBedTLSiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mBedTLSiOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-mBedTLSiOS_Tests/Pods-mBedTLSiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8979A2A3727790A7A4BE4850 /* mBedTLSiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = mBedTLSiOS.podspec; path = ../mBedTLSiOS.podspec; sourceTree = "<group>"; };
+		8979A2A3727790A7A4BE4850 /* mBedTLSiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = mBedTLSiOS.podspec; path = ../mBedTLSiOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8F353686735379A2A615752A /* Pods_mBedTLSiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mBedTLSiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9CE80A36B5CC0F5FEAA4B65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B9CE80A36B5CC0F5FEAA4B65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BA910E3B510ED598A9AAB686 /* Pods-mBedTLSiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mBedTLSiOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-mBedTLSiOS_Example/Pods-mBedTLSiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D0F5DF562AE442E1FE5676BB /* Pods_mBedTLSiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mBedTLSiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B6ACDC678BEF334BDBDF51 /* Pods-mBedTLSiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mBedTLSiOS_Example.release.xcconfig"; path = "Target Support Files/Pods-mBedTLSiOS_Example/Pods-mBedTLSiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				3F03311C41E520856DAD326E /* Pods-mBedTLSiOS_Tests.debug.xcconfig */,
 				62084D045C3F67F8201BE143 /* Pods-mBedTLSiOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

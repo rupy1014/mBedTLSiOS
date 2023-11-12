@@ -1,0 +1,16 @@
+PODS:
+  - mBedTLSiOS (0.1.0)
+
+DEPENDENCIES:
+  - mBedTLSiOS (from `../`)
+
+EXTERNAL SOURCES:
+  mBedTLSiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  mBedTLSiOS: 150d80e8f086eae872e51ffc3e7fd05444f02c89
+
+PODFILE CHECKSUM: 8b66a1a8a9d6cdd4ada7d0fbca6d81ae1b98fed3
+
+COCOAPODS: 1.14.2

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'mBedTLSiOS'
-  s.version          = '0.1.0'
+  s.version          = '3.5.1'
   s.summary          = 'A short description of mBedTLSiOS.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'mBedTLSiOS/Classes/**/*'
+  s.source_files = 'mBedTLSiOS/Classes/**/*', 'mBedTLSiOS/Classes/include/**/*'
   
   # s.resource_bundles = {
   #   'mBedTLSiOS' => ['mBedTLSiOS/Assets/*.png']

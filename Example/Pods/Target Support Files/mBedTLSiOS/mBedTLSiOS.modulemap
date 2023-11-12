@@ -1,0 +1,6 @@
+framework module mBedTLSiOS {
+  umbrella header "mBedTLSiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

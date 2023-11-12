@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F4CF769EB53B700440C320A6C0B001 /* Pods-mBedTLSiOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D997081FC033049008D3E64440F2522F /* Pods-mBedTLSiOS_Example-dummy.m */; };
+		2AAB4D7BE8F7A092AE28F2B2DC7786DD /* mBedTLSiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50DB07FB3851E0CBFC998D0BA5669EC0 /* mBedTLSiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38E81B8C0092D636BB1F89D567B7A958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		47C4D71DEABA1C3A6989889550935FC6 /* Pods-mBedTLSiOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF2DF51ADB9A0F15D5D65C053970BC7E /* Pods-mBedTLSiOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DFE9BD7E389525117E58FEF6647A195 /* mBedTLSiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D064411A6BB358D5CBFEEF9B73288064 /* mBedTLSiOS-dummy.m */; };
+		5FE36B11DC040BF0FF7CF8207E84EB3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AFDAB3FDEF4A1AF917B2613B7C26BD63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B8B9FE9FE689EC243C67F78A4CF19117 /* Pods-mBedTLSiOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CED95A8AC6DE111A70BE2A61776867F1 /* Pods-mBedTLSiOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F958E78AB4E4537750A03E089771B4BF /* Pods-mBedTLSiOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A833B4CA94B0BD9F986F352034010559 /* Pods-mBedTLSiOS_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C13051731FC7EED2E3766470FBF2AEA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFEC0198D2D030FDF7D6B39CFEEFE600;
+			remoteInfo = mBedTLSiOS;
+		};
+		E56D1E8F2DFF9984DE4E5077131D1BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74408B551EDCFCED913CCE97A341FF73;
+			remoteInfo = "Pods-mBedTLSiOS_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0364D24E216D5790CE5E43D0DE293CD0 /* Pods-mBedTLSiOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mBedTLSiOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		08356324A8F36CD8EAAEC30611D8F1DA /* mBedTLSiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mBedTLSiOS.release.xcconfig; sourceTree = "<group>"; };
+		08E51752805FA92701EC977BF5962369 /* Pods-mBedTLSiOS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mBedTLSiOS_Tests"; path = Pods_mBedTLSiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24131108AC6B2E817A72BC569A904E56 /* Pods-mBedTLSiOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mBedTLSiOS_Example.modulemap"; sourceTree = "<group>"; };
+		33D7602ECF20BFE1C3366C6947DBB4A9 /* mBedTLSiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = mBedTLSiOS.modulemap; sourceTree = "<group>"; };
+		3A32A1856315092B01B957306619440C /* mBedTLSiOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = mBedTLSiOS; path = mBedTLSiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AC9FFC74AB3051EBBAD08FEC3B0B2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4D53DDD000D1B820D31EEC5CD5CAC798 /* Pods-mBedTLSiOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mBedTLSiOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		50DB07FB3851E0CBFC998D0BA5669EC0 /* mBedTLSiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mBedTLSiOS-umbrella.h"; sourceTree = "<group>"; };
+		53F68B7576805C4D152880801388B821 /* mBedTLSiOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "mBedTLSiOS-Info.plist"; sourceTree = "<group>"; };
+		5575878BF8EB284FF0181DECE2370039 /* mBedTLSiOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = mBedTLSiOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73E85B4D3236C6647D32E77FA5F347C0 /* Pods-mBedTLSiOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mBedTLSiOS_Example-Info.plist"; sourceTree = "<group>"; };
+		7492936D8BF736DA47DDD08984AE3E69 /* mBedTLSiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "mBedTLSiOS-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A833B4CA94B0BD9F986F352034010559 /* Pods-mBedTLSiOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mBedTLSiOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		A8665C5ABE700F5412493F188450AFE0 /* mBedTLSiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mBedTLSiOS.debug.xcconfig; sourceTree = "<group>"; };
+		B466CC06C8C2BB394CDCCBE8847EC6D9 /* Pods-mBedTLSiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mBedTLSiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B621C6D333B5FAB39F23369A8B0B5E49 /* Pods-mBedTLSiOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mBedTLSiOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9A9FC7EF287D0A0F4BFB4CAEE235753 /* Pods-mBedTLSiOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mBedTLSiOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA05986816EF1A68E5C306D6F270F000 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CED95A8AC6DE111A70BE2A61776867F1 /* Pods-mBedTLSiOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mBedTLSiOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		CFBD442D7A91D47E909D157781DF7E87 /* Pods-mBedTLSiOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mBedTLSiOS_Tests.modulemap"; sourceTree = "<group>"; };
+		D064411A6BB358D5CBFEEF9B73288064 /* mBedTLSiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "mBedTLSiOS-dummy.m"; sourceTree = "<group>"; };
+		D366FF32910C59E40650A6A3DE0606F6 /* Pods-mBedTLSiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mBedTLSiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D55A78EA91217BAF97E06CCF67255142 /* Pods-mBedTLSiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mBedTLSiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D78B216B34E88B6E1A38B3B52DDC1A87 /* Pods-mBedTLSiOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mBedTLSiOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D997081FC033049008D3E64440F2522F /* Pods-mBedTLSiOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mBedTLSiOS_Example-dummy.m"; sourceTree = "<group>"; };
+		DF2DF51ADB9A0F15D5D65C053970BC7E /* Pods-mBedTLSiOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mBedTLSiOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F5732C9BAD226C2ABC56294E06DE499D /* Pods-mBedTLSiOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mBedTLSiOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		F738409CDA433EB99C8111CD9EB4ACA5 /* Pods-mBedTLSiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mBedTLSiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FDD01A214E0573C0F2B0829D2E9C41C6 /* Pods-mBedTLSiOS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mBedTLSiOS_Example"; path = Pods_mBedTLSiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FCEA603C2C38F5FA229ADD5709E25E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE36B11DC040BF0FF7CF8207E84EB3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B6CA1C14B80CF54F517FB805A5A88D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E81B8C0092D636BB1F89D567B7A958 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7EEF545DB0CCA460AA8EC72869608E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDAB3FDEF4A1AF917B2613B7C26BD63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17AF32EFBABF1161DE259C97E3D8FB99 /* mBedTLSiOS */ = {
+			isa = PBXGroup;
+			children = (
+				DDB575A7D7AB7BF1305A6D4AD34A1039 /* Pod */,
+				60FAA3B43565033CF4CC549621FB0319 /* Support Files */,
+			);
+			name = mBedTLSiOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		32FCFA04B6EF362A1B346530D52EA359 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEED357D2D3C46DFB112B10F234C57F2 /* Pods-mBedTLSiOS_Example */,
+				68BFA0B836D0EC2657FA4D9576C80046 /* Pods-mBedTLSiOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60FAA3B43565033CF4CC549621FB0319 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33D7602ECF20BFE1C3366C6947DBB4A9 /* mBedTLSiOS.modulemap */,
+				D064411A6BB358D5CBFEEF9B73288064 /* mBedTLSiOS-dummy.m */,
+				53F68B7576805C4D152880801388B821 /* mBedTLSiOS-Info.plist */,
+				7492936D8BF736DA47DDD08984AE3E69 /* mBedTLSiOS-prefix.pch */,
+				50DB07FB3851E0CBFC998D0BA5669EC0 /* mBedTLSiOS-umbrella.h */,
+				A8665C5ABE700F5412493F188450AFE0 /* mBedTLSiOS.debug.xcconfig */,
+				08356324A8F36CD8EAAEC30611D8F1DA /* mBedTLSiOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/mBedTLSiOS";
+			sourceTree = "<group>";
+		};
+		68BFA0B836D0EC2657FA4D9576C80046 /* Pods-mBedTLSiOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFBD442D7A91D47E909D157781DF7E87 /* Pods-mBedTLSiOS_Tests.modulemap */,
+				D78B216B34E88B6E1A38B3B52DDC1A87 /* Pods-mBedTLSiOS_Tests-acknowledgements.markdown */,
+				C9A9FC7EF287D0A0F4BFB4CAEE235753 /* Pods-mBedTLSiOS_Tests-acknowledgements.plist */,
+				A833B4CA94B0BD9F986F352034010559 /* Pods-mBedTLSiOS_Tests-dummy.m */,
+				F5732C9BAD226C2ABC56294E06DE499D /* Pods-mBedTLSiOS_Tests-Info.plist */,
+				DF2DF51ADB9A0F15D5D65C053970BC7E /* Pods-mBedTLSiOS_Tests-umbrella.h */,
+				D366FF32910C59E40650A6A3DE0606F6 /* Pods-mBedTLSiOS_Tests.debug.xcconfig */,
+				B466CC06C8C2BB394CDCCBE8847EC6D9 /* Pods-mBedTLSiOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-mBedTLSiOS_Tests";
+			path = "Target Support Files/Pods-mBedTLSiOS_Tests";
+			sourceTree = "<group>";
+		};
+		8E9D290AC8DD9587ED9EC9CBDAF77306 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17AF32EFBABF1161DE259C97E3D8FB99 /* mBedTLSiOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9882F197729D19E68F8550E5B921EFF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A32A1856315092B01B957306619440C /* mBedTLSiOS */,
+				FDD01A214E0573C0F2B0829D2E9C41C6 /* Pods-mBedTLSiOS_Example */,
+				08E51752805FA92701EC977BF5962369 /* Pods-mBedTLSiOS_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEED357D2D3C46DFB112B10F234C57F2 /* Pods-mBedTLSiOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				24131108AC6B2E817A72BC569A904E56 /* Pods-mBedTLSiOS_Example.modulemap */,
+				B621C6D333B5FAB39F23369A8B0B5E49 /* Pods-mBedTLSiOS_Example-acknowledgements.markdown */,
+				4D53DDD000D1B820D31EEC5CD5CAC798 /* Pods-mBedTLSiOS_Example-acknowledgements.plist */,
+				D997081FC033049008D3E64440F2522F /* Pods-mBedTLSiOS_Example-dummy.m */,
+				0364D24E216D5790CE5E43D0DE293CD0 /* Pods-mBedTLSiOS_Example-frameworks.sh */,
+				73E85B4D3236C6647D32E77FA5F347C0 /* Pods-mBedTLSiOS_Example-Info.plist */,
+				CED95A8AC6DE111A70BE2A61776867F1 /* Pods-mBedTLSiOS_Example-umbrella.h */,
+				D55A78EA91217BAF97E06CCF67255142 /* Pods-mBedTLSiOS_Example.debug.xcconfig */,
+				F738409CDA433EB99C8111CD9EB4ACA5 /* Pods-mBedTLSiOS_Example.release.xcconfig */,
+			);
+			name = "Pods-mBedTLSiOS_Example";
+			path = "Target Support Files/Pods-mBedTLSiOS_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8E9D290AC8DD9587ED9EC9CBDAF77306 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9882F197729D19E68F8550E5B921EFF2 /* Products */,
+				32FCFA04B6EF362A1B346530D52EA359 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDB575A7D7AB7BF1305A6D4AD34A1039 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				46AC9FFC74AB3051EBBAD08FEC3B0B2B /* LICENSE */,
+				5575878BF8EB284FF0181DECE2370039 /* mBedTLSiOS.podspec */,
+				CA05986816EF1A68E5C306D6F270F000 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5CF90E267FCC5C59D718D1E2FDC593B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAB4D7BE8F7A092AE28F2B2DC7786DD /* mBedTLSiOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74792B31BFAB14704902801D4D4979B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C4D71DEABA1C3A6989889550935FC6 /* Pods-mBedTLSiOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F629D7D60BCA9EC4E3338EC9979E773 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8B9FE9FE689EC243C67F78A4CF19117 /* Pods-mBedTLSiOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5C2A0BC67E9566DB8F6019AD329E4DCE /* Pods-mBedTLSiOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F498F6618C88645344820B1744FD604 /* Build configuration list for PBXNativeTarget "Pods-mBedTLSiOS_Tests" */;
+			buildPhases = (
+				74792B31BFAB14704902801D4D4979B6 /* Headers */,
+				84EC1253767A9526D214B4920F21D0DE /* Sources */,
+				B3B6CA1C14B80CF54F517FB805A5A88D /* Frameworks */,
+				34E5CC6C0925002092E5CE68B26546C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229179F730F40A2E41E2F75EC6D85D8A /* PBXTargetDependency */,
+			);
+			name = "Pods-mBedTLSiOS_Tests";
+			productName = Pods_mBedTLSiOS_Tests;
+			productReference = 08E51752805FA92701EC977BF5962369 /* Pods-mBedTLSiOS_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		74408B551EDCFCED913CCE97A341FF73 /* Pods-mBedTLSiOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D425AD7FF1551A0D34C2E75E99DB50D /* Build configuration list for PBXNativeTarget "Pods-mBedTLSiOS_Example" */;
+			buildPhases = (
+				9F629D7D60BCA9EC4E3338EC9979E773 /* Headers */,
+				1A160444FF38D14EC66A5A946203DB62 /* Sources */,
+				BE7EEF545DB0CCA460AA8EC72869608E /* Frameworks */,
+				1467C688278016AA81EEA0744473465E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD60B8B689447E613CE04EF9C173CDE0 /* PBXTargetDependency */,
+			);
+			name = "Pods-mBedTLSiOS_Example";
+			productName = Pods_mBedTLSiOS_Example;
+			productReference = FDD01A214E0573C0F2B0829D2E9C41C6 /* Pods-mBedTLSiOS_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFEC0198D2D030FDF7D6B39CFEEFE600 /* mBedTLSiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8089BBF6195ADF21DD347DD16DAED868 /* Build configuration list for PBXNativeTarget "mBedTLSiOS" */;
+			buildPhases = (
+				5CF90E267FCC5C59D718D1E2FDC593B0 /* Headers */,
+				54CD5023F6BE0D0471F1E8F12228F270 /* Sources */,
+				2FCEA603C2C38F5FA229ADD5709E25E2 /* Frameworks */,
+				434DB189AF1D2750EB6FF33A849CD819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mBedTLSiOS;
+			productName = mBedTLSiOS;
+			productReference = 3A32A1856315092B01B957306619440C /* mBedTLSiOS */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9882F197729D19E68F8550E5B921EFF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFEC0198D2D030FDF7D6B39CFEEFE600 /* mBedTLSiOS */,
+				74408B551EDCFCED913CCE97A341FF73 /* Pods-mBedTLSiOS_Example */,
+				5C2A0BC67E9566DB8F6019AD329E4DCE /* Pods-mBedTLSiOS_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1467C688278016AA81EEA0744473465E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34E5CC6C0925002092E5CE68B26546C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		434DB189AF1D2750EB6FF33A849CD819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A160444FF38D14EC66A5A946203DB62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F4CF769EB53B700440C320A6C0B001 /* Pods-mBedTLSiOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54CD5023F6BE0D0471F1E8F12228F270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFE9BD7E389525117E58FEF6647A195 /* mBedTLSiOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EC1253767A9526D214B4920F21D0DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F958E78AB4E4537750A03E089771B4BF /* Pods-mBedTLSiOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229179F730F40A2E41E2F75EC6D85D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mBedTLSiOS_Example";
+			target = 74408B551EDCFCED913CCE97A341FF73 /* Pods-mBedTLSiOS_Example */;
+			targetProxy = E56D1E8F2DFF9984DE4E5077131D1BC7 /* PBXContainerItemProxy */;
+		};
+		AD60B8B689447E613CE04EF9C173CDE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mBedTLSiOS;
+			target = FFEC0198D2D030FDF7D6B39CFEEFE600 /* mBedTLSiOS */;
+			targetProxy = C13051731FC7EED2E3766470FBF2AEA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E51DB5513C43088B36769B4C98B1221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8665C5ABE700F5412493F188450AFE0 /* mBedTLSiOS.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/mBedTLSiOS/mBedTLSiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mBedTLSiOS/mBedTLSiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/mBedTLSiOS/mBedTLSiOS.modulemap";
+				PRODUCT_MODULE_NAME = mBedTLSiOS;
+				PRODUCT_NAME = mBedTLSiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		502F608E5B3B030EB27961376EEBCE2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B466CC06C8C2BB394CDCCBE8847EC6D9 /* Pods-mBedTLSiOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mBedTLSiOS_Tests/Pods-mBedTLSiOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mBedTLSiOS_Tests/Pods-mBedTLSiOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54B1A608891F4DD4F5D5D01BF9D61FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D366FF32910C59E40650A6A3DE0606F6 /* Pods-mBedTLSiOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mBedTLSiOS_Tests/Pods-mBedTLSiOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mBedTLSiOS_Tests/Pods-mBedTLSiOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8D631C4035EC4F3996B5A36D258F6DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D55A78EA91217BAF97E06CCF67255142 /* Pods-mBedTLSiOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mBedTLSiOS_Example/Pods-mBedTLSiOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mBedTLSiOS_Example/Pods-mBedTLSiOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FBBC6BB9D1E72B0B98CFFD11AAD0AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08356324A8F36CD8EAAEC30611D8F1DA /* mBedTLSiOS.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/mBedTLSiOS/mBedTLSiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/mBedTLSiOS/mBedTLSiOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/mBedTLSiOS/mBedTLSiOS.modulemap";
+				PRODUCT_MODULE_NAME = mBedTLSiOS;
+				PRODUCT_NAME = mBedTLSiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B22CD894F3043A9D97661D3D4E98FDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F738409CDA433EB99C8111CD9EB4ACA5 /* Pods-mBedTLSiOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mBedTLSiOS_Example/Pods-mBedTLSiOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mBedTLSiOS_Example/Pods-mBedTLSiOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F498F6618C88645344820B1744FD604 /* Build configuration list for PBXNativeTarget "Pods-mBedTLSiOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54B1A608891F4DD4F5D5D01BF9D61FF5 /* Debug */,
+				502F608E5B3B030EB27961376EEBCE2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D425AD7FF1551A0D34C2E75E99DB50D /* Build configuration list for PBXNativeTarget "Pods-mBedTLSiOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D631C4035EC4F3996B5A36D258F6DD4 /* Debug */,
+				B22CD894F3043A9D97661D3D4E98FDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8089BBF6195ADF21DD347DD16DAED868 /* Build configuration list for PBXNativeTarget "mBedTLSiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E51DB5513C43088B36769B4C98B1221 /* Debug */,
+				8FBBC6BB9D1E72B0B98CFFD11AAD0AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

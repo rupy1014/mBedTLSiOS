@@ -1,0 +1,22 @@
+{
+  "name": "mBedTLSiOS",
+  "version": "0.1.0",
+  "summary": "A short description of mBedTLSiOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rupy1014/mBedTLSiOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rupy1014": "rupy1014@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rupy1014/mBedTLSiOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "mBedTLSiOS/Classes/**/*"
+}

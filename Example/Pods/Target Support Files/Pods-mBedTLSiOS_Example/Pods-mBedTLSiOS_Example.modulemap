@@ -1,0 +1,6 @@
+framework module Pods_mBedTLSiOS_Example {
+  umbrella header "Pods-mBedTLSiOS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
