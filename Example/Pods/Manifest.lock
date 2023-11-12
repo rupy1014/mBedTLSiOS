@@ -1,5 +1,5 @@
 PODS:
-  - mBedTLSiOS (0.1.0)
+  - mBedTLSiOS (3.5.1)
 
 DEPENDENCIES:
   - mBedTLSiOS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  mBedTLSiOS: 150d80e8f086eae872e51ffc3e7fd05444f02c89
+  mBedTLSiOS: 772c0a13632e1560f20d3c21d1665a4a8572ee28
 
 PODFILE CHECKSUM: 8b66a1a8a9d6cdd4ada7d0fbca6d81ae1b98fed3
 
